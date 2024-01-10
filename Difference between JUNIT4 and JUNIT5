@@ -1,0 +1,9 @@
+
+                 Junit 4                                          |                               Junit 5
+                   @Test--------(for each test case)-----------------------------------------------------------------@Test
+                   @AfterClass---(only one time execute when all test cases executed...)--------------------------------@AfterAll
+                   @BeforeClass---(only one time execute before all test cases execute)---------------------------------@BeforeAll
+                   @Before -----------(before each test case execute)-----------------------------------------------------@BeforeEach
+                   @After--------------(after each test case execute)----------------------------------------------------@AfterEach
+                   @Assert-----------------------------------------(class)-----------------------------------------------@Assertions
+                 ex-  Assert.assertEquals(expected,actual);                                                           ex-Assertions.assertEquals(expected,actual);
